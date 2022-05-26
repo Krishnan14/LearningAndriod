@@ -5,19 +5,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".PonnerSankar">
-    <TextView
+    tools:context=".curdrice"
+    android:orientation="vertical">
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your name"
-        android:id="@+id/Username"
-        android:textSize="30dp"/>
+        android:hint="enter a name"
+        android:textSize="20dp"
+        android:id="@+id/username"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter"
-        android:textSize="25dp"
-        android:id="@+id/submit"
-        android:layout_gravity="center"/>
+        android:text="enter"
+        android:textSize="20dp"
+        android:id="@+id/login"/>
+
 </LinearLayout>
